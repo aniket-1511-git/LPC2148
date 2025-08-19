@@ -1,0 +1,9 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\ext_int__driver.o"
+".\objects\ext_int_main.o"
+".\objects\ext_int_timer.o"
+--strict --scatter ".\Objects\External_interrupt.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\External_interrupt.map" -o .\Objects\External_interrupt.axf
