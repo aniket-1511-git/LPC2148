@@ -1,9 +1,0 @@
---cpu ARM7TDMI
-".\objects\startup.o"
-".\objects\spi_driver.o"
-".\objects\spi_main.o"
-".\objects\spi_uart_driver.o"
---strict --scatter ".\Objects\spi_comm_master.sct"
---summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
---info sizes --info totals --info unused --info veneers
---list ".\Listings\spi_comm_master.map" -o .\Objects\spi_comm_master.axf

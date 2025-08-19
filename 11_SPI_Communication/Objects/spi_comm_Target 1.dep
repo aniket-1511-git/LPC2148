@@ -1,15 +1,0 @@
-Dependencies for Project 'spi_comm', Target 'Target 1': (DO NOT MODIFY !)
-F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 526"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
-F (.\spi_driver.c)(0x68A2C051)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\spi_driver.o --omf_browse .\objects\spi_driver.crf --depend .\objects\spi_driver.d)
-I (spi_header.h)(0x68A2B4B8)
-I (C:\Keil_v5\ARM\INC\Philips\LPC214X.H)(0x559CFE30)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EFE66)
-F (.\spi_header.h)(0x68A2B4B8)()
-F (.\spi_main.c)(0x68A2C168)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\spi_main.o --omf_browse .\objects\spi_main.crf --depend .\objects\spi_main.d)
-I (spi_header.h)(0x68A2B4B8)
-I (C:\Keil_v5\ARM\INC\Philips\LPC214X.H)(0x559CFE30)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EFE66)
-F (.\SPI_Uart_driver.c)(0x68A2BB29)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\spi_uart_driver.o --omf_browse .\objects\spi_uart_driver.crf --depend .\objects\spi_uart_driver.d)
-I (spi_header.h)(0x68A2B4B8)
-I (C:\Keil_v5\ARM\INC\Philips\LPC214X.H)(0x559CFE30)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EFE66)
