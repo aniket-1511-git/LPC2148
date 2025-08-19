@@ -1,15 +1,0 @@
-Dependencies for Project 'External_interrupt', Target 'Target 1': (DO NOT MODIFY !)
-F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 526"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
-F (.\ext_int__driver.c)(0x689DD9E4)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\ext_int__driver.o --omf_browse .\objects\ext_int__driver.crf --depend .\objects\ext_int__driver.d)
-I (ext_int_header.h)(0x689DD991)
-I (C:\Keil_v5\ARM\INC\Philips\LPC214X.H)(0x559CFE30)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EFE66)
-F (.\ext_int_main.c)(0x689DD9A2)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\ext_int_main.o --omf_browse .\objects\ext_int_main.crf --depend .\objects\ext_int_main.d)
-I (ext_int_header.h)(0x689DD991)
-I (C:\Keil_v5\ARM\INC\Philips\LPC214X.H)(0x559CFE30)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EFE66)
-F (.\ext_int_header.h)(0x689DD991)()
-F (.\ext_int_timer.c)(0x689DC51E)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\ext_int_timer.o --omf_browse .\objects\ext_int_timer.crf --depend .\objects\ext_int_timer.d)
-I (ext_int_header.h)(0x689DD991)
-I (C:\Keil_v5\ARM\INC\Philips\LPC214X.H)(0x559CFE30)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EFE66)
