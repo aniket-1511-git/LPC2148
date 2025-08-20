@@ -1,7 +1,7 @@
 #include "ext_int_header.h"
 /*
 * Function name      : int main(void)
-* Description        : this function to                             
+* Description        : this function to check external interrut                         
 */
 int main(void)
 {
