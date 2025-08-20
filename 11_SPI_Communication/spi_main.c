@@ -1,6 +1,9 @@
 #include "spi_header.h"
-
-int main()
+/*
+* Function Name : int main(void)
+* Description   : This Function Initializes UART , SPI read the data using  SPI slave
+*/
+int main(void)
 {
 	// Varriable to store adc output and volt voltage
 	uint32_t spiOutput,volt;
