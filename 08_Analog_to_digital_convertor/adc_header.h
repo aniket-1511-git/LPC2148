@@ -4,6 +4,7 @@
 #define THRE_U8 ((U0LSR>>5)&1)
 /* defined macro for receiver data ready */
 #define RDR_U8  (U0LSR&1)
+/* defined macro for DONE flag of ADC */
 #define DONE_U8 ((AD0GDR>>31)&1)
 
 typedef signed char       int8_t;   // 8-bit signed
