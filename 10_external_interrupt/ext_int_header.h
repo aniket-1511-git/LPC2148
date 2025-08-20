@@ -8,7 +8,7 @@
 #define LED2_u8  (1<<0)
 
 
-void ext_Int_config(void); // Function to config ext_int0
+void ext_Int_config(void); // Function to init ext_int0
 void ms_delay(uint32_t sec_u32); // Function to genrate delay in sec
-void config_extint0(void);
+void config_extint0(void);      //Function to congif external interrupt 0
 

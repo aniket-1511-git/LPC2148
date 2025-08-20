@@ -27,14 +27,14 @@ void ext_int0_isr(void)__irq
 
 /*
 * Function name      : void ext_Int_config(void)
-* Description        : this function to vic  Configure external interrupt0                            
+* Description        : this function to vic Configure external interrupt0                            
 */
 void ext_Int_config(void)
 {
 	
 	VICIntSelect = 0;
 	// Enable Ext int 0
-  VICIntEnable |= (1<<14);	
+  	VICIntEnable |= (1<<14);	
 	// To enable vectored IRQ slot
 	VICVectCntl0 |=14|(1<<5);
 	// pointer interrupt function (ISR)
