@@ -1,6 +1,9 @@
 #include "gpio_header.h"
-
-int main()
+/*
+* Function Name : int main(void)
+* Decription    : This Function to blink LED's Using the GPIO drivers                           
+*/
+int main(void)
 {
 	while(1)
 	{
