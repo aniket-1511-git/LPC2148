@@ -1,5 +1,5 @@
 #include <LPC214X.H>
-
+/*Macro defind for P1.16*/
 #define sqWave_u8 1<<16
 
 typedef signed char       int8_t;   // 8-bit signed
