@@ -11,19 +11,19 @@
 /* defined macro for Enable pin of LCD */
 #define EN (1<<19)
 
-uint8_t SPI0_read_write(uint8_t data_u8);
-void spi_init_master(void);
+uint8_t SPI0_read_write(uint8_t data_u8); // Function To read and write data using SPI
+void spi_init_master(void); // Function To SPI init
 
-void ms_delay(int ms);
+void ms_delay(int ms);// Function To delay generation 
 
-void lcd_data(unsigned char data);
-void lcd_cmd(unsigned char data);
-void lcd_init(void);
-void lcd_str(char *p);
-void lcd_intNo(int no);
+void lcd_data(unsigned char data);// Function To send data on LCD
+void lcd_cmd(unsigned char data);// Function To send Command on LCD
+void lcd_init(void);// Function To Init LCD
+void lcd_str(char *p);// Function To send String on LCD
+void lcd_intNo(int no);// Function To send no on LCD
 
-void sd_enableWrite(void);
-void sd_disableWrite(void);
-uint8_t sd_dataRead(uint8_t mr);
-void sd_dataWrite(uint8_t mr, uint8_t data);
+void sd_enableWrite(void); // Function To enable write operation
+void sd_disableWrite(void);// Function To disable write operation
+uint8_t sd_dataRead(uint8_t mr);// Function To read data from SD card
+void sd_dataWrite(uint8_t mr, uint8_t data);// Function To write data on SD card
 
