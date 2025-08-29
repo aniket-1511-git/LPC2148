@@ -32,20 +32,19 @@ void uart_stringReceive(uint8_t *,uint8_t);  // Fucntion to Receive string via u
 
 //========================== DELAY ==========================
 
-void ms_delay(int ms);
+void ms_delay(int ms);// Function To generate dealy using time0
 
 //========================== LCD ==========================
 
-void lcd_init(void);
-void lcd_cmd(unsigned char data);
-void lcd_data(unsigned char data);
-void lcd_str(char *p);
-void lcd_intNo(int no);
+void lcd_init(void);// Function To init lcd 
+void lcd_cmd(unsigned char data);// Function To send command on LCD
+void lcd_data(unsigned char data);// Function To send data on LCD
+void lcd_str(char *p);// Function To send string on LCD
 
 //========================== ADC ==========================
 
-void adc_init(void);
-uint16_t adc0_read_data(uint8_t chNo_u8);
+void adc_init(void);  // Function to Initializes ADC
+uint16_t adc0_read_data(uint8_t chNo_u8);  // Fucntion to Receive data from ADC
 
 
 
